@@ -642,7 +642,7 @@ class DepthEstimation:
             denom = f_x*x_trans + c_x*z_trans
             numerator = best_match_x -c_x*dot_2 - f_x*dot_0
 
-            inverse_depth_new = numerator / denom
+            #inverse_depth_new = numerator / denom
 
             # if inverse_depth_new < 0:
             #     inverse_depth_new = x_d_2 / baseline_2
@@ -685,7 +685,8 @@ class DepthEstimation:
             denom = f_y*y_trans + c_y*z_trans
             numerator = best_match_y + c_y*dot_2 + f_y*dot_1
 
-            inverse_depth_new = numerator / denom
+            #inverse_depth_new = numerator / denom
+            #inverse_depth_new *= -1
             # if inverse_depth_new < 0:
             #     inverse_depth_new = y_d_2 / baseline_2
             inner_1 = (dot_1 * z_trans - dot_2 * y_trans)

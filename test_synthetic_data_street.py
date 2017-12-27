@@ -7,7 +7,7 @@ import libs.visualize as VISUALIZE
 import libs.runner as RUNNER
 import libs.PostProcess as POST
 
-root_dir = 'datasets/synth_street/'
+root_dir = 'datasets/synth_street_small/'
 images_dir = root_dir + 'data/img'
 mse_dir = root_dir+'mse/'
 odom_path = root_dir + 'info/groundtruth.txt'
@@ -35,7 +35,7 @@ depth_path = depth_folder + depth_file
 
 
 def check_gradients():
-    log_file = open('datasets/synth_street/gradients.txt', 'w+')
+    log_file = open('datasets/synth_street_small/gradients.txt', 'w+')
     img_range = range(10, 11)
     for key_img in img_range:
         info = 'Key: ' + str(key_img) + '\n'
