@@ -4,8 +4,10 @@ X Translation:
 
 ![alt text](https://github.com/geoeo/Prob_Depth/blob/master/datasets/ipad_small/x_trans.png)
 
-Y Translation
+Y Translation:
+
 ![alt text](https://github.com/geoeo/Prob_Depth/blob/master/datasets/ipad_small/y-trans.png)
 
-Z Translation
+Z Translation:
+
 ![alt_text](https://github.com/geoeo/Prob_Depth/blob/master/datasets/synth_street_small/urban_canyon.png)
